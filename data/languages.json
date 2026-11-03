@@ -1,0 +1,11 @@
+{
+  "es": {
+    "name": "Español",
+    "common": "es/common.txt",
+    "extended": "es/extended.txt"
+  },
+  "en": {
+    "name": "English",
+    "common": "en/common.txt"
+  }
+}
