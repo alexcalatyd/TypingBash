@@ -83,6 +83,18 @@ Typed characters turn bright, wrong ones go red, the untyped rest stays dim — 
 | A terminal of at least **60x18** | the game tells you if the window is too small |
 | Nothing else | no libraries, no build step |
 
+### With Homebrew
+
+```sh
+brew tap alexcalatyd/tap
+brew trust alexcalatyd/tap   # Homebrew asks you to trust third-party taps once
+brew install alexcalatyd/tap/typingbash
+```
+
+It brings its own Python, so `typingbash` works from anywhere straight away.
+
+### From source
+
 ```sh
 git clone https://github.com/alexcalatyd/TypingBash.git
 cd TypingBash
